@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Post erstellen</title>
+    <link rel="stylesheet" href="poststyle.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a>Admin</a>
+          <ul id="submenu">
+            <li><a href="#">New or Edit Post</a></li>
+            <li><a href="pics.html">Pics Upload</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+
+  <div id="Post">
+    <h1>New Post</h1>
+    <form>
+      <input type="text" placeholder="insert title here"/>
+      <textarea id="MyID">
+
+      </textarea>
+      <button>Save</button>
+    </form>
+
+    <script>
+      var simplemde = new SimpleMDE({ element: document.getElementById("MyID") });
+    </script>
+  </div>
+
+
+  </body>
+</html>

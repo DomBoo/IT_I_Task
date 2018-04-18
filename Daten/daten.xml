@@ -1,0 +1,12 @@
+<USER>
+  <USER1>
+    <ID>1</ID>
+    <NAME>Klaus</NAME>
+    <INFO>Student</INFO>
+  </USER1>
+  <USER2>
+    <ID>2</ID>
+    <NAME>Peter</NAME>
+    <INFO>Arbeiter</INFO>
+  </USER>
+</USER>

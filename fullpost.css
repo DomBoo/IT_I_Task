@@ -1,0 +1,22 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+#comment{
+  width: 90%;
+  background: #ccc;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+}
+
+input[type=text], input[type=email]{
+  position: absolute;
+  width: 96.5%;
+  left: 10px;
+}
+
+textarea{
+  width: 98%;
+}
